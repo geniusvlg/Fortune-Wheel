@@ -1,15 +1,6 @@
 body {
-    height: 2000px; 
-    width: 1920px;
+
 }
-
-
-
-.section-2 .container {
-	width: 1920px;
-	height: 816px;		
-}
-
 
 .text h3 {
 	font-weight: bold;
@@ -119,9 +110,8 @@ body {
 /* Section 2 */
 .section-2 {
 	background-image: url("../images/section-2-background.png");
-	width: 1920px;
-	height: 816px;
 	border-top: solid 6px #98551f;
+	
 }
 
 .section-2 .section-2-note {
