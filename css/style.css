@@ -116,8 +116,7 @@ body {
 
 .section-2 .section-2-note {
 	margin-top: 34%;
-	float: right;
-	margin-right: 90px;
+	float: left;
 }
 
 .section-2 .section-2-note .note-1 {
@@ -141,7 +140,7 @@ body {
 	font-size: 116px;
 	font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    float: left;
+    float: right;
     padding-left: 30px;
     padding-top: 12px;
 
