@@ -36,12 +36,8 @@ body {
 }
 
 .section-1 .section-1-text img{
-	margin-left: 100px;
-	margin-top: 157px;
-}
-
-.section-1 .start-img {
-		
+	margin-left: 14%;
+	margin-top: 10%;
 }
 
 .section-1 .download-mobile-app {
@@ -76,7 +72,7 @@ body {
 .section-1 .video-section {
 	background-repeat: no-repeat;
 	top: 83%;
-	left: 30%;
+	left: 25vw;
 	position: absolute;
 	width: 640px;
 	height: 360px;
@@ -115,19 +111,19 @@ body {
 }
 
 .section-2 .section-2-note {
-	margin-top: 34%;
+	margin-top: 45%;
 	float: left;
 }
 
 .section-2 .section-2-note .note-1 {
-	padding-top: 23px;
+	padding-top: 7%;
 	background-image: -webkit-linear-gradient(top, #fff 48%, #f0f0f0 51%);
 	background-image: -moz-linear-gradient(top, #fff 48%, #f0f0f0 51%);
 	background-image: -o-linear-gradient(top, #fff 48%, #f0f0f0 51%);
 	background-image: -ms-linear-gradient(top, #fff 48%, #f0f0f0 51%);
 	background-image: linear-gradient(to bottom, #fff 48%, #f0f0f0 51%);
 	font-family: Arial;
-	font-size: 44px;
+	font-size: 40px;
 	color: #fff;
 	float: left;
 	 text-align:right;
@@ -167,7 +163,7 @@ body {
 .section-2 .subcribe-form {
 	float: right;
     padding: 10px;
-	margin: 10px 75px 0 0;
+	margin: 10px 75px 20% 0;
 	background-image: url("../images/subcribe-background.png");
 	width: 480px;
 	height: 100px;
@@ -238,6 +234,11 @@ body {
 	background-image: -o-linear-gradient(top, #ffc72e 14%, #eebc23 86%);
 	background-image: -ms-linear-gradient(top, #ffc72e 14%, #eebc23 86%);
 	background-image: linear-gradient(to bottom, #ffc72e 14%, #eebc23 86%)
+}
+
+.section-2 .gift-image {
+
+	width: 45vw;
 }
 
 /* Section 3 */
