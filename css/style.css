@@ -34,11 +34,13 @@ body {
 .section-1 .rotation-img img{
 	float: right;
 	margin-top: 50px;
+	width: 75%;
 }
 
 .section-1 .section-1-text img{
 	margin-left: 14%;
 	margin-top: 15%;
+	width: 60%;
 }
 
 .section-1 .download-mobile-frame {
@@ -282,5 +284,13 @@ footer {
 
 
 /* MOBILE VERSION */
+@media only screen and (max-device-width: 769px)
+{
+	.section-1 .rotation-img img{
+	float: none;
+	display: block;
+	margin: 10% auto auto auto;
+	}
+}
 
 
