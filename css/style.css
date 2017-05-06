@@ -244,7 +244,8 @@ body {
 	left: 60%; 
 }
 
-.section-3 .background-img img{
+.section-3 .background-img {
+	width: 100%;
 	top: 0px; 
 	left: 0px; 
 }
