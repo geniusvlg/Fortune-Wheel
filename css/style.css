@@ -413,6 +413,22 @@ footer {
 	display: block;
 	margin: -15% auto auto auto;
 	}
+
+	/*	SECTION 3	*/
+	.section-3 .button {
+	left: 0%; 
+	}
+
+	.section-3 .button img{
+	width: 40%;
+	}
+
+	.section-3 .background-img {
+	width: 100%;
+	top: 0px; 
+	left: 0px; 
+	}
 }
+
 
 
