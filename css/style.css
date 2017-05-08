@@ -9,7 +9,7 @@ body {
 }
 
 .button img {
-	margin: 0px 1px 17px 20px;
+	margin: 0px 1px 17px 4%;
 	width: 42%;
 	height: 25%;
 }
@@ -59,16 +59,15 @@ body {
 }
 
 .section-1 .download-mobile-frame .text {
-	padding-bottom: 10px;
 	color: #fff;
-	margin-top: 2vh;
+	margin-top: 1vh;
 }
 
 .section-1 .download-mobile-frame .download-image {
 	float: left;
 	width: 35px;
 	height: 35px;
-	margin: 20px 10px 0px 20px;
+	margin: 3% 10px 0px 20px;
 }
 
 .section-1 .video-section {
@@ -150,8 +149,7 @@ body {
 .section-2 .subcribe-form {
 	float: right;
     padding: 10px 0px 10px 5px;
-	margin: 5% 75px 11% 0;
-	background-image: url("../images/subcribe-background.png");
+	margin: 5% 75px 10vh 0;
 	width: 78%;
 	height: 95px;
 	-webkit-border-radius: 6px;
@@ -229,7 +227,7 @@ body {
 }
 
 .section-2 .gift-image img{
-	width: 100%;
+	width: 38vw;
 	margin-top: 15%;
 }
 
@@ -239,6 +237,7 @@ body {
 }
 
 .section-3 .button {
+	width: 30%;
 	position:absolute; 
 	top: 70%; 
 	left: 60%; 
@@ -416,7 +415,10 @@ footer {
 
 	/*	SECTION 3	*/
 	.section-3 .button {
-	left: 0%; 
+	text-align: center;
+	left: auto;
+	right: 2vw;
+	width: 100%;
 	}
 
 	.section-3 .button img{
@@ -428,7 +430,28 @@ footer {
 	top: 0px; 
 	left: 0px; 
 	}
+
+	/* FOOTER */
+	footer {
+    height: 100%;
+	}
+
+	.footer-img img{
+		height: 5vh;
+	}
+
+	.footer-text .text-1 {
+    font-size : 2vh;
+    padding-top: 1%;
+	}
+
+	.footer-text .text-2 {
+    font-size : 2vh;
+    padding: 0px;    
+	}
+
 }
+
 
 
 
