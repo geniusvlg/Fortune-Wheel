@@ -39,11 +39,12 @@ body {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb32c', endColorstr='#f68415',GradientType=1 ); 	
 }
 
-.section-1 .popup #firework{
+.section-1 #firework{
+	z-index: 11;
 	position: absolute;
-	width: 37%;
-	left: 53%;
-	top: -60%;
+	width: 30%;
+	top: 10%;
+	left: 60%;
 }
 
 .section-1 .popup #reward-img{
@@ -58,7 +59,7 @@ body {
 	left: 25%;
 	width: 70%;
 	height: 38%;
-	z-index: 11;
+	z-index: 12;
 	position: absolute;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
