@@ -32,12 +32,83 @@ body {
 .section-1 {
 	position: relative;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f68415+0,ffb32c+86 */
-	background: #f68415; /* Old browsers */
-	background: #ffb32c; /* Old browsers */
-	background: -moz-radial-gradient(center, ellipse cover, #ffb32c 0%, #f68415 86%); /* FF3.6-15 */
-	background: -webkit-radial-gradient(center, ellipse cover, #ffb32c 0%,#f68415 86%); /* Chrome10-25,Safari5.1-6 */
-	background: radial-gradient(ellipse at center, #ffb32c 0%,#f68415 86%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb32c', endColorstr='#f68415',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	background: #ffb32c; 
+	background: -moz-radial-gradient(center, ellipse cover, #ffb32c 0%, #f68415 86%); 
+	background: -webkit-radial-gradient(center, ellipse cover, #ffb32c 0%,#f68415 86%); 
+	background: radial-gradient(ellipse at center, #ffb32c 0%,#f68415 86%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb32c', endColorstr='#f68415',GradientType=1 ); 	
+}
+
+.section-1 .popup #firework{
+	position: absolute;
+	width: 37%;
+	left: 53%;
+	top: -60%;
+}
+
+.section-1 .popup #reward-img{
+	top: -23%;
+	left: 40%;
+	position: absolute;
+	width: 22%;
+}
+
+.section-1 .popup{
+	top:36%;
+	left: 25%;
+	width: 70%;
+	height: 38%;
+	z-index: 11;
+	position: absolute;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background-color: rgba(49, 49, 49, 0.7); 
+	opacity: 1;
+}
+
+.section-1 .popup-text {
+}
+
+.section-1 .popup .text-1{
+	padding-top: 13%;
+	font-size: 1.5vw; 
+	font-weight: bold;
+	background: #ffd67f; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffd67f 5%, #ffbc3f 55%, #ffb400 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #ffd67f 5%,#ffbc3f 55%,#ffb400 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #ffd67f 5%,#ffbc3f 55%,#ffb400 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	font-family: Arial;
+	text-align: center;
+	text-shadow: 1px 2px 3px rgba(164,83,3);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.section-1 .popup .text-2	{
+	font-size: 2vw;
+	text-align: center;
+	font-weight: bold;
+	background: #ffd67f; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffd67f 5%, #ffbc3f 55%, #ffb400 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #ffd67f 5%,#ffbc3f 55%,#ffb400 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #ffd67f 5%,#ffbc3f 55%,#ffb400 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	font-family: Arial;
+	text-align: center;
+	text-shadow: 1px 2px 3px rgba(164,83,3);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.section-1 .popup .popup-reward{
+	position:absolute;
+   bottom:0;
+	width: 100%;
+	height: 35%;
+	-webkit-border-radius: 0 0 10px 10px;
+	-moz-border-radius: 0 0 10px 10px;
+	border-radius: 0 0 10px 10px;
+	background-color: #ffbc3a;
 }
 
 .section-1 #wheel{
@@ -73,7 +144,7 @@ body {
 }
 
 .section-1 .download-mobile-frame {
-	margin-left: 100px;
+	margin-left: 15%;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	margin-top: 49px;
@@ -145,11 +216,11 @@ body {
 }
 
 .section-2 .section-2-note .note-1 {
-	background-image: -webkit-linear-gradient(top, #fff 48%, #f0f0f0 51%);
-	background-image: -moz-linear-gradient(top, #fff 48%, #f0f0f0 51%);
-	background-image: -o-linear-gradient(top, #fff 48%, #f0f0f0 51%);
-	background-image: -ms-linear-gradient(top, #fff 48%, #f0f0f0 51%);
-	background-image: linear-gradient(to bottom, #fff 48%, #f0f0f0 51%);
+	background: -webkit-linear-gradient(top, #fff 48%, #f0f0f0 51%);
+	background: -moz-linear-gradient(top, #fff 48%, #f0f0f0 51%);
+	background: -o-linear-gradient(top, #fff 48%, #f0f0f0 51%);
+	background: -ms-linear-gradient(top, #fff 48%, #f0f0f0 51%);
+	background: linear-gradient(to bottom, #fff 48%, #f0f0f0 51%);
 	font-family: Arial;
 	font-size: 35px;
 	color: #fff;
