@@ -26,9 +26,9 @@ var data = '{ "20k": [' +
   '{"content": "Cộng 30 phút nội mạng"} ],' +
   '"20sms": [' +
   '{"angle": "240"},' +
-  '{"image":  "images/20min.png"},' +
-  '{"content": "CỘng 20 SMS nội mạng"} ],' +
+  '{"image":  "images/20sms.png"},' +
+  '{"content": "Cộng 20 SMS nội mạng"} ],' +
   '"50sms": [' +
   '{"angle": "270"},' +
-  '{"image":  "images/50min.png"},' +
+  '{"image":  "images/50sms.png"},' +
   '{"content": "Cộng 50 SMS nội mạng"} ]}';

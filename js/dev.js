@@ -10,6 +10,8 @@ $(window).load(function () {
     document.getElementById('backgroundImg').src='images/section-3-background.png'
   }
 
+  
+
 });
 
 
