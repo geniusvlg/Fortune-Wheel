@@ -29,6 +29,7 @@ body {
 
 /* SECTION 1*/
 
+/*	Overview	*/
 .section-1 {
 	position: relative;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f68415+0,ffb32c+86 */
@@ -39,26 +40,37 @@ body {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb32c', endColorstr='#f68415',GradientType=1 ); 	
 }
 
-.section-1 .popup #firework{
-	position: absolute;
-	width: 37%;
-	left: 53%;
-	top: -60%;
+/*	Firework	*/
+.section-1 .firework {
+	display: none;
 }
 
-.section-1 .popup #reward-img{
-	top: -23%;
-	left: 40%;
+.section-1 .firework #firework1{
+	z-index: 11;
 	position: absolute;
-	width: 22%;
+	width: 30%;
+	top: 7%;
+	left: 60%;
 }
+
+.section-1 .firework #firework2{
+	z-index: 11;
+	position: absolute;
+	width: 25%;
+	top: 20%;
+	left: 20%;
+}
+
+/*	Popup */
 
 .section-1 .popup{
-	top:36%;
-	left: 25%;
-	width: 70%;
-	height: 38%;
-	z-index: 11;
+	color: white;
+	display: none;
+	top:38%;
+	left: 27%;
+	width: 65%;
+	height: 36%;
+	z-index: 12;
 	position: absolute;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -67,12 +79,27 @@ body {
 	opacity: 1;
 }
 
-.section-1 .popup-text {
+.section-1 .popup .close{
+	color: #fff;
+	opacity: 1;
+ 	position:absolute;
+	cursor: pointer;
+	font-size:22px; line-height: 30px; text-align: center;
+	right:0px;
+	top:0px; width:30px; height: 30px;
+	padding-top:3px;
+}
+
+.section-1 .popup #reward-icon{
+	top: -23%;
+	left: 40%;
+	position: absolute;
+	width: 22%;
 }
 
 .section-1 .popup .text-1{
 	padding-top: 13%;
-	font-size: 1.5vw; 
+	font-size: 120%; 
 	font-weight: bold;
 	background: #ffd67f; /* Old browsers */
 	background: -moz-linear-gradient(top, #ffd67f 5%, #ffbc3f 55%, #ffb400 100%); /* FF3.6-15 */
@@ -86,7 +113,7 @@ body {
 }
 
 .section-1 .popup .text-2	{
-	font-size: 2vw;
+	font-size: 170%;
 	text-align: center;
 	font-weight: bold;
 	background: #ffd67f; /* Old browsers */
@@ -102,14 +129,31 @@ body {
 
 .section-1 .popup .popup-reward{
 	position:absolute;
-   bottom:0;
+   	bottom:0;
 	width: 100%;
-	height: 35%;
+	height: 33%;
 	-webkit-border-radius: 0 0 10px 10px;
 	-moz-border-radius: 0 0 10px 10px;
 	border-radius: 0 0 10px 10px;
 	background-color: #ffbc3a;
 }
+
+.section-1 .popup .popup-reward #reward-img{
+	margin-top: 3%;
+	margin-left: 15%;
+	max-height: 62%;
+	float: left;
+}
+
+.section-1 .popup .popup-reward .text-reward {
+	margin-top: 5%;
+	margin-left: 32%;
+	font-size: 18px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+/*	Wheel	*/
 
 .section-1 #wheel{
 	position: relative;
@@ -143,6 +187,7 @@ body {
 	width: 60%;
 }
 
+/*	Mobile App download frame */
 .section-1 .download-mobile-frame {
 	margin-left: 15%;
 	-moz-border-radius: 5px;
@@ -169,6 +214,8 @@ body {
 	height: 35px;
 	margin: 3% 10px 0px 20px;
 }
+
+/*	Video section */
 
 .section-1 .video-section {
 	background-repeat: no-repeat;
@@ -385,6 +432,11 @@ footer {
 {
 	/*	SECTION 1	*/
 
+	/*	Popup	*/
+	
+
+
+	/*	Wheel	*/
 	.section-1 #wheel{
 	width: 85%; 
 	float: none;
@@ -414,6 +466,7 @@ footer {
 	padding-bottom: 3%;
 	}
 
+	/* Mobile App Download Frame*/
 	.section-1 .download-mobile-frame {
 	display: block;
 	float: none;
@@ -439,6 +492,7 @@ footer {
 
 	}
 
+	/*	Video section 	*/
 	.section-1 .video-text {
 	bottom: 12%;
 	left: 19%;
