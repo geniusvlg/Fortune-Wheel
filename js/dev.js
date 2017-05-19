@@ -1,5 +1,5 @@
 $(window).load(function () {
-  rotateImg();
+  //rotateImg();
   $width = $(window).outerWidth(true);
   console.log("Width: " + $width);
   if ($width < 992)
