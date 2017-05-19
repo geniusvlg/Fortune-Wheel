@@ -41,14 +41,14 @@
 										<div class="text-2">nhận được phần thưởng</div>
 									</div>
 									<div class="popup-reward">
-										<img id="reward-img">
+										<img id="img-reward">
 										<div class="text-reward"></div>
 									</div>
 							</div>
 							<div class="canvas">
 								<img id="wheel" src="images/wheel.png" > 
 								<div class="button not-select inactive" onclick="rotateImg()"><img src="images/btn-quay.png"></div>
-								<span class="spin"></span>
+								<img id="spin" src="images/spin.png"></img>
 							</div>
 						</div>
 
@@ -58,9 +58,7 @@
 							</div>
 							<div class="download-mobile-frame"> 
 								<img src="images/download-image.png" class="download-image">
-								<div class="text">
-									<h3>Tải App My Viettel để chơi game</h3>
-								</div>
+								<div class="text">Tải App My Viettel để chơi game</div>
 								<div class="button">
 									<img id="iOS_app_download" href="#" src="images/apple.png" />
 									<img id="Android_app_download" href="#" src="images/google.png" />
@@ -94,7 +92,7 @@
 									<img src="images/gmail-icon.png" class="mail-image">
 									Đăng ký nhận tin
 								</div>
-								<input type="text" name="subcribe" placeholder="Nhập số điện thoại hoặc gmail của bạn">
+								<input type="text" name="subcribe" placeholder="Nhập số điện thoại hoặc gmail của bạn" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nhập số điện thoại hoặc gmail của bạn'">
 								<input type="submit" name="subcribe" value="Đăng ký" class="subcribe">
 							</div>
 						</div>

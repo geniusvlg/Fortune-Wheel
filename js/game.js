@@ -30,11 +30,10 @@ function play() {
 function showPopup(image_url, content) {
   console.log("Show popup")
   $(".firework").css("display","block");
-
   $(".popup").css("display","block");
-
-   console.log("finish");
-  $('#reward-img').attr('src', image_url)
+  $(".canvas img").css("z-index","8");
+  console.log("finish");
+  $('#img-reward').attr('src', image_url)
 
   $('.text-reward').text(content)
 
