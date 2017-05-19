@@ -3,7 +3,7 @@ body {
 }
 
 .button img {
-	margin: 0px 1px 17px 4%;
+	margin: 0px 1px 15px 4%;
 	width: 42%;
 	height: 25%;
 }
@@ -125,7 +125,7 @@ body {
 
 .section-1 .popup .popup-reward{
 	position:absolute;
-   	bottom:0;
+   	bottom: -1%;
 	width: 100%;
 	height: 33%;
 	-webkit-border-radius: 0 0 5px 5px;
@@ -427,7 +427,7 @@ footer {
 
 
 /*	MOBILE VERSION	*/
-@media only screen and (max-device-width: 769px)
+@media only screen and (max-width: 991px)
 {
 	/*	SECTION 1	*/
 
@@ -447,9 +447,13 @@ footer {
 	font-size: 5vw;
 	}
 
+	.section-1 .popup .popup-reward{
+   	bottom: -1%;
+	}
+
 	.section-1 .popup .popup-reward .text-reward {
 	margin-top: 4.2%;
-	font-size: 3.5vw;
+	font-size: 3vw;
 	}
 
 	/*	Wheel	*/
@@ -466,8 +470,8 @@ footer {
   	top: 41%; left: 32%;
 	}
 
-	.section-1 .canvas .spin{
- 	right: 8%; top: 10%; 
+	.section-1 .canvas #spin{
+ 	right: 10%; top: 10%; 
 	}
 
 	.section-1 .section-1-text img{
@@ -493,7 +497,8 @@ footer {
 
 	.section-1 .download-mobile-frame .text {
 		padding-top: 3%;
-		padding-bottom: 5%;
+		padding-bottom: 6%;
+		font-size: 4vw;
 	}
 
 	.section-1 .download-mobile-frame .button img{
@@ -569,14 +574,14 @@ footer {
 
 	.section-2 .subcribe-form  input[type=text] {
 	font-size: 2vh;
-	width: 77vw;
+	width: 93%;
 	height: 30%;
 	margin: auto auto auto 3%;
 	}
 
 	.section-2 .subcribe-form  input[type=submit]{
 	font-size: 2vh;
-	width: 77vw;
+	width: 93%;
 	height: 30%;
 	margin: 2% auto 15% 3%;
 	}
@@ -633,5 +638,26 @@ footer {
 }
 
 
+/* SETTING FOR SPECIAL RES*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px)
+{
+	.section-1 .download-mobile-frame .text
+	{
+		font-size: 15px;
+	}
+
+		.section-1 .download-mobile-frame .text
+	{
+		padding-bottom: 6%;
+	}
+}
 
 
+@media only screen and (min-width: 457px) and (max-width: 991px)
+{
+
+	.section-1 .download-mobile-frame .download-image {
+		margin-right: 3%;
+	}
+}
