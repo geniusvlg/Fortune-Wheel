@@ -1,7 +1,7 @@
 html, body { width:100%;  overflow:hidden; }
 
 .button img {
-	margin: 0px 1px 17px 4%;
+	margin: 0px 1px 15px 4%;
 	width: 42%;
 	height: 25%;
 }
@@ -110,7 +110,7 @@ html, body { width:100%;  overflow:hidden; }
 
 .section-1 .popup .popup-reward{
 	position:absolute;
-   	bottom:0;
+   	bottom: -1%;
 	width: 100%;
 	height: 33%;
 	-webkit-border-radius: 0 0 5px 5px;
@@ -199,7 +199,7 @@ html, body { width:100%;  overflow:hidden; }
 	margin: 3% 10px 0px 20px;
 }
 
-/*	Video section */
+/*	Video section 
 
 .section-1 .video-section {
 	background-repeat: no-repeat;
@@ -215,19 +215,46 @@ html, body { width:100%;  overflow:hidden; }
 }
 
 .section-1 .video-section .video {
+	padding: 1px 1px;
+	width: 100%;
+	height: 100%;
+} 
+
+
+.section-1 .text {
+
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fff;
+	text-shadow: 1px 3px 7px rgba(0,0,0,.22);
+} */
+
+.section-1 .video-section {
+	background-repeat: no-repeat;
+	top: 81%;
+	left: 31vw;
+	position: absolute;
+	width: 40%;
+	height: 45%;
+	background-color: #ffbd3c;
+	-webkit-box-shadow: 1px 2px 10px #2c2c2c;
+	-moz-box-shadow: 1px 2px 10px #2c2c2c;
+	box-shadow: 1px 2px 10px #2c2c2c;
+}
+
+.section-1 .video-section .video {
 	padding: 2px 2px;
 	width: 100%;
 	height: 100%;
 }
 
-
-.section-1 .video-text {
-	text-align: center;
+.section-1 .video-section .text {
+	left: 13vw;
+	bottom: 103%;
 	position: absolute;
-	bottom: 20%;
-	left: 39%;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 30px;
+	font-size: 1.3vw;
 	font-weight: bold;
 	text-transform: uppercase;
 	color: #fff;
@@ -242,7 +269,7 @@ html, body { width:100%;  overflow:hidden; }
 }
 
 .section-2 .section-2-note {
-	margin-top: 44%;
+	margin-top: 42%;
 	float: left;
 }
 
@@ -357,8 +384,8 @@ html, body { width:100%;  overflow:hidden; }
 }
 
 .section-2 .gift-image img{
-	width: 105%;
-	margin-top: 15%;
+	width: 110%;
+	margin-top: 17%;
 }
 
 /* SECTION 3 */
@@ -367,7 +394,7 @@ html, body { width:100%;  overflow:hidden; }
 }
 
 .section-3 .button {
-	width: 30%;
+	width: 23%;
 	position:absolute; 
 	top: 70%; 
 	left: 60%; 
@@ -412,7 +439,7 @@ footer {
 
 
 /*	MOBILE VERSION	*/
-@media only screen and (max-device-width: 769px)
+@media only screen and (max-width: 991px)
 {
 
 	main {
@@ -437,9 +464,13 @@ footer {
 	font-size: 3vw;
 	}
 
+	.section-1 .popup .popup-reward{
+   	bottom: -1%;
+	}
+
 	.section-1 .popup .popup-reward .text-reward {
 	margin-top: 4.2%;
-	font-size: 3.5vw;
+	font-size: 3vw;
 	}
 
 	/*	Wheel	*/
@@ -456,8 +487,8 @@ footer {
   	top: 41%; left: 32%;
 	}
 
-	.section-1 .canvas .spin{
- 	right: 8%; top: 10%; 
+	.section-1 .canvas #spin{
+ 	right: 10%; top: 10%; 
 	}
 
 	.section-1 .section-1-text img{
@@ -483,7 +514,8 @@ footer {
 
 	.section-1 .download-mobile-frame .text {
 		padding-top: 3%;
-		padding-bottom: 5%;
+		padding-bottom: 6%;
+		font-size: 4vw;
 	}
 
 	.section-1 .download-mobile-frame .button img{
@@ -500,22 +532,27 @@ footer {
 	}
 
 	/*	Video section 	*/
-	.section-1 .video-text {
-	bottom: 12%;
-	left: 19%;
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 6vw;
-	font-weight: bold;
-	text-transform: uppercase;
-	color: #fff;
-	text-shadow: 1px 3px 7px rgba(0,0,0,.22);
-	}
 
-	.section-1 .video-section {
+	.section-1 .video-section{
 	top: 88%;
 	left: 5%;
 	width: 90%;
 	height: 22%;
+	}
+
+	.section-1 .video-section .video {
+		padding: 1px 1px;
+	}
+
+
+	.section-1 .video-section .text {
+	left: 26%;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 4vw;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fff;
+	text-shadow: 1px 3px 7px rgba(0,0,0,.22);
 	}
 
 	/*	SECTION 2	*/
@@ -527,7 +564,7 @@ footer {
 	}
 
 	.section-2 .section-2-note .note-1 {
-	font-size: 7vw;
+	font-size: 6vw;
 	font-weight: bold;
 	margin-left: 5% ;
 	display: block;
@@ -559,14 +596,14 @@ footer {
 
 	.section-2 .subcribe-form  input[type=text] {
 	font-size: 2vh;
-	width: 77vw;
+	width: 93%;
 	height: 30%;
 	margin: auto auto auto 3%;
 	}
 
 	.section-2 .subcribe-form  input[type=submit]{
 	font-size: 2vh;
-	width: 77vw;
+	width: 93%;
 	height: 30%;
 	margin: 2% auto 15% 3%;
 	}
@@ -580,7 +617,7 @@ footer {
 	.section-2 .gift-image img{
 	width: 100%;
 	display: block;
-	margin: -15% auto auto auto;
+	margin: -15% auto 3% auto;
 	}
 
 	/*	SECTION 3	*/
@@ -618,6 +655,36 @@ footer {
 	.footer-text .text-2 {
     font-size : 2vh;
     padding: 0px;    
+	}
+
+}
+
+
+/* SETTING FOR SPECIAL RES*/
+
+@media only screen and (min-width: 457px) and (max-width: 991px)
+{
+
+	.section-1 .download-mobile-frame .download-image {
+		margin-right: 3%;
+	}
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px)
+{
+	.section-1 .download-mobile-frame .text
+	{
+		font-size: 15px;
+	}
+
+		.section-1 .download-mobile-frame .text
+	{
+		padding-bottom: 6%;
+	}
+
+	.section-2 .section-2-note .note-2 {
+		padding-left: 10px;
 	}
 
 }
