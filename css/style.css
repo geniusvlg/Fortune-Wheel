@@ -1,4 +1,4 @@
-html, body { width:100%;  overflow:hidden; }
+
 
 .button img {
 	margin: 0px 1px 15px 4%;
@@ -63,7 +63,7 @@ html, body { width:100%;  overflow:hidden; }
 	top:38%;
 	left: 27%;
 	width: 65%;
-	height: 33%;
+	height: 28%;
 	z-index: 12;
 	position: absolute;
 	-webkit-border-radius: 10px;
@@ -92,8 +92,8 @@ html, body { width:100%;  overflow:hidden; }
 }
 
 .section-1 .popup .text-1{
-	padding-top: 13%;
-	font-size: 110%; 
+	padding-top: 15%;
+	font-size: 120%; 
 	font-weight: bold;
 	font-style: italic;
 	font-family: Arial;
@@ -144,12 +144,17 @@ html, body { width:100%;  overflow:hidden; }
 	width: 80%;
 }
 
+.section-1 #wheel-background{
+	z-index: 6;
+	position: absolute;
+}
+
 .section-1 .canvas .button img{
 	z-index: 10;
 	cursor: pointer;
-  	width: 27%; height: 30%; 
+  	width: 28%; height: 28%; 
   	position: absolute;
-  	top: 41%; left: 42%;
+  	top: 38%; left: 41%;
   	border:none;
   	outline: none;
 }
@@ -166,6 +171,22 @@ html, body { width:100%;  overflow:hidden; }
 	margin-left: 14%;
 	margin-top: 15%;
 	width: 60%;
+}
+
+/* Notice part */
+
+.section-1 .notice{
+	padding-top: 1%;
+	font-size: 80%;
+	width: 100%;
+	display: inline-block;
+	font-weight: bold;
+	padding-left: 23%;
+}
+
+.section-1	.notice p{
+	font-style: italic;
+	display: inline;
 }
 
 /*	Mobile App download frame */
@@ -198,37 +219,6 @@ html, body { width:100%;  overflow:hidden; }
 	height: 35px;
 	margin: 3% 10px 0px 20px;
 }
-
-/*	Video section 
-
-.section-1 .video-section {
-	background-repeat: no-repeat;
-	top: 81%;
-	left: 30vw;
-	position: absolute;
-	width: 40%;
-	height: 45%;
-	background-color: #ffbd3c;
-	-webkit-box-shadow: 1px 2px 10px #2c2c2c;
-	-moz-box-shadow: 1px 2px 10px #2c2c2c;
-	box-shadow: 1px 2px 10px #2c2c2c;
-}
-
-.section-1 .video-section .video {
-	padding: 1px 1px;
-	width: 100%;
-	height: 100%;
-} 
-
-
-.section-1 .text {
-
-	font-size: 30px;
-	font-weight: bold;
-	text-transform: uppercase;
-	color: #fff;
-	text-shadow: 1px 3px 7px rgba(0,0,0,.22);
-} */
 
 .section-1 .video-section {
 	background-repeat: no-repeat;
@@ -453,7 +443,7 @@ footer {
 	top:38%;
 	left: 16.5%;
 	width: 67%;
-	height: 35%;
+	height: 27%;
 	}
 
 	.section-1 .popup .text-1{
@@ -482,9 +472,10 @@ footer {
 	}
 
 	.section-1 .canvas .button img{
-  	width: 28%; height: 30%; 
+  	width: 28%; height: 28%; 
   	position: absolute;
-  	top: 41%; left: 32%;
+  	top: 35%; 
+  	left: 32%;
 	}
 
 	.section-1 .canvas #spin{
@@ -501,6 +492,11 @@ footer {
 	font-weight: bold;
 	font-size: 4vw;
 	padding-bottom: 3%;
+	}
+
+	.section-1 .notice{
+	font-size: 2vw;
+	padding-left: 13%;
 	}
 
 	/* Mobile App Download Frame*/
@@ -532,7 +528,6 @@ footer {
 	}
 
 	/*	Video section 	*/
-
 	.section-1 .video-section{
 	top: 88%;
 	left: 5%;
@@ -662,17 +657,32 @@ footer {
 
 /* SETTING FOR SPECIAL RES*/
 
-@media only screen and (min-width: 457px) and (max-width: 991px)
+@media only screen and (max-width: 360px)
 {
+	.section-1 .canvas .button img{
+		top: 33%;
+	
+}
+
+@media only screen and (min-width: 361px) and (max-width: 991px)
+{
+
+	.section-1 .canvas .button img{
+		top: 36vw;
+	}
 
 	.section-1 .download-mobile-frame .download-image {
 		margin-right: 3%;
 	}
-
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px)
 {
+
+	.section-1 .canvas .button img{
+		top: 35%;
+	}
+
 	.section-1 .download-mobile-frame .text
 	{
 		font-size: 15px;

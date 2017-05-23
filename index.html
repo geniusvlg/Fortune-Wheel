@@ -14,7 +14,7 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" media="screen" href="css/font-awesome/css/font-awesome.min.css">
-	<meta name="viewport" content="width-device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="viewport" content="device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="js/data.js"></script>
 	<script type="text/javascript" src="js/jquery.rotate.js"></script>
@@ -30,7 +30,7 @@
 		<main>
 			<section class="section-1">	
 				<div class="container">
-				<div id="mask"></div>
+				<div id="1mask"></div>
 					<div class="row">
 						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 							<div class="firework">
@@ -41,8 +41,9 @@
 									<a class="close"><i class="fa fa-close"></i></a>
 									<img src="images/reward.png" id="reward-icon">
 									<div class="popup-text">
-										<div class="text-1">Giải thưởng minh họa trò chơi</div>
-										<div class="text-2">Chúc mừng quý khách đã quay vào ô</div>
+										<div class="text-1"> Chúc mừng quý khách đã quay vào ô </div>
+										
+										<!-- <div class="text-2"></div> -->
 									</div>
 									<div class="popup-reward">
 										<img id="img-reward">
@@ -50,10 +51,16 @@
 									</div>
 							</div>
 							<div class="canvas">
-								<img id="wheel" src="images/wheel.png" > 
+								<img id="wheel" src="images/wheel.png">
 								<div class="button not-select inactive" onclick="rotateImg()"><img src="images/btn-quay.png"></div>
-								<img id="spin" src="images/spin.png"></img>
+								<img id="spin" src="images/spin.png">
 							</div>
+
+							<div class="notice">
+								<p>Lưu ý:</p> Vòng QUay chỉ mang tính chất minh họa hướng dẫn người dùng </br>
+								Bạn hãy cài đặt My Viettel, chơi và nhận các giải thưởng giá trị nhé!
+							</div>
+
 						</div>
 
 						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
