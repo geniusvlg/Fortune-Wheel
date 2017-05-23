@@ -19,6 +19,48 @@
   overflow: hidden;
 }
 
+.label-img-app {
+    cursor: pointer;
+    position: fixed;
+    right: -187px;
+    top: 100px;
+    z-index: 99;
+}
+
+.label-img-app.appFix {
+    right: 0;
+}
+
+.container-app {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #137b6f;
+    border-color: #1a1a1a -moz-use-text-color #1a1a1a #1a1a1a;
+    border-image: none;
+    border-radius: 10px 0 0 10px;
+    border-style: solid none solid solid;
+    border-width: 1px medium 1px 1px;
+    padding: 10px;
+}
+
+ul.li-container-app {
+    padding-left:0px;
+}
+ul.li-container-app li {
+    background-image: url("../images/bg-li-click-app.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    margin-bottom: 17px;
+}
+ul.li-container-app li.ma-soi {
+    background-image: none;
+    text-align:center;
+}
+ul,li{
+    list-style: none;
+}
 /* SECTION 1*/
 
 /*	Overview	*/
@@ -498,6 +540,7 @@ footer {
 	font-size: 2vw;
 	padding-left: 13%;
 	}
+
 
 	/* Mobile App Download Frame*/
 	.section-1 .download-mobile-frame {
