@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5LB5HHT');</script>
+<!-- End Google Tag Manager -->
+    <meta charset="utf-8">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    
+    <title>Vòng quay may mắn My Viettel - Trúng thưởng mỗi ngày miễn phí</title>
+    <meta name="description" content="Chương trình ưu đãi với khách hàng, chơi ngay trên điện thoại, hoàn toàn miễn phí, quay, vqmm, my viettel mobile, tai, tai my viettel, my viettel, my viettel">
+
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5LB5HHT"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    <div class="label-img-app appFix">
+        <div class="app-link-wrapper" style="position:relative">
+            <div class="img-app" style="position:absolute;top:25px;left:-30px;">
+                <img class="btn-app-mb" src="images/bg-img-app.png"/>
+            </div>
+            <div class="container-app" style="">
+                <ul class="li-container-app">
+                    <li class="hidden-android"><a id="iOS_app_download_banner" href="https://itunes.apple.com/vn/app/my-viettel-h%C3%A3y-n%C3%B3i-theo-c%C3%A1ch-c%E1%BB%A7a-b%E1%BA%A1n/id1014838705" class="appstore-link">
+                        <img src="images/img-app-click.png" height="40"/></a>
+                    </li>
+                    <li class="hidden-ios"><a id="Android_app_download_banner" href="https://play.google.com/store/apps/details?id=com.vttm.vietteldiscovery" class="chplay-link">
+                        <img src="images/img-ggplay-click.png" height="40"/></a>
+                    </li>
+                    <li class="ma-soi">
+                        <img src="images/img-ma.png"/></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <nav class="navbar">
+            <div class="container container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="images/logo.png" width="100%" /></a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Tính năng</a></li>
+                        <li><a href="#">Hướng dẫn</a></li>
+                        <li><a href="#">Hỏi đáp</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="text">
+                            <div class="text1">Vòng quay <span>My Viettel</span></div>
+                            <div class="text2">Có quay có trúng</div>
+                        </div>                        
+                        <div class="app_button">
+                            <a id="iOS_app_download" href="https://itunes.apple.com/vn/app/my-viettel-h%C3%A3y-n%C3%B3i-theo-c%C3%A1ch-c%E1%BB%A7a-b%E1%BA%A1n/id1014838705"><img src="images/app_store.png" /></a>
+                            <a id="Android_app_download" href="https://play.google.com/store/apps/details?id=com.vttm.vietteldiscovery"><img src="images/google_play.png" /></a>
+                        </div>                        
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <img src="images/image_01.png" width="100%" />                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="text">
+                            <div class="text1">Tham gia <span>đơn giản</span></div>
+                            <iframe type="text/html" width="90%" height="360" src="https://www.youtube.com/embed/FNT5D1_ktUs" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="images">
+                            <img src="images/image_02.png" width="100%"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="text">
+                            <div class="text1">Gần <span>2 triệu</span> giải thưởng</div>                        
+                        </div>
+                        <div class="note">
+                            <div class="note1">Tổng giá trị<br />lên tới</div>
+                            <div class="note2">1,5</div>
+                            <div class="note3">tỷ<br />đồng</div>
+                        </div>
+                        <div class="card">
+                            <a href="#"><img src="images/card_01.png" /></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="images">
+                            <img src="images/image_04.png" width="100%"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="text">
+                            <div class="text2">Tham gia mỗi ngày</div>                        
+                            <div class="text2">Nhận quà liền tay</div>                        
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="images">
+                            <img src="images/image_05.png" width="100%"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>    
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer_text">
+                        <img src="images/footer_logo.png" />
+                        My Viettel - © Viettel Telecom 2017.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-1.12.3.min.js"></script>   
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $('.img-app').click(function () {
+                if ($('.container-app').is(':visible')) {
+                    $('.container-app').hide();
+                } else {
+                    $('.container-app').show();
+                }
+            });
+
+        });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,150 @@
+/* MEDIA */
+
+@media only screen and (min-device-width : 0px) and (max-device-width : 667px) 
+{
+    .dropdown.open {
+        text-align:left;
+    }
+}
+
+@media only screen and (min-device-width : 668px)
+{
+    
+}
+
+@media only screen and (min-device-width : 0px) and (max-device-width : 319px) 
+{
+    
+}
+
+/* IPHONE 5 LANDSCAPE */
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : landscape) 
+{
+    .cross_menu a::before 
+    {        
+        left:0px;
+        top:5px;
+    }
+
+    .cross_menu a::after 
+    {
+        left:10px;
+        bottom:5px;
+        width:3px;
+    }
+}
+
+/* IPHONE 5 PORTRAIT */
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) 
+{ 
+    .cross_menu a::before 
+    {        
+        left:0px;
+        top:5px;
+    }
+
+    .cross_menu a::after 
+    {
+        left:10px;
+        bottom:5px;
+        width:3px;
+    }
+}
+
+/* IPHONE 6 LANDSCAPE */
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : landscape) 
+{ 
+    .cross_menu a::before 
+    {        
+        left:0px;
+        top:5px;
+    }
+
+    .cross_menu a::after 
+    {
+        left:10px;
+        bottom:5px;
+        width:3px;
+    }
+}
+
+/* IPHONE 6 PORTRAIT */
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) 
+{
+    .cross_menu a::before 
+    {        
+        left:0px;
+        top:5px;
+    }
+
+    .cross_menu a::after 
+    {
+        left:10px;
+        bottom:5px;
+        width:3px;
+    }
+
+}
+
+/* IPHONE 6 PLUS LANDSCAPE */
+
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : landscape) 
+{ 
+    
+}
+
+/* IPHONE 6 PLUS PORTRAIT */
+
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : portrait) 
+{
+    
+}
+
+/* IPAD LANDSCAPE */
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) 
+{
+    
+}
+
+/* IPAD PORTRAIT */
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) 
+{
+
+}
+
+@media only screen and (min-device-width : 668px)
+{
+    
+}
+
+/* EMD MEDIA */
