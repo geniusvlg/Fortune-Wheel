@@ -315,45 +315,19 @@ ul,li{
 	
 }
 
-.section-2 .section-2-note {
+.section-2 .total-award {
 	margin-top: 42%;
 	float: left;
 }
 
-.section-2 .section-2-note .note-1 {
-	background: -webkit-linear-gradient(top, #fff 48%, #f0f0f0 51%);
-	background: -moz-linear-gradient(top, #fff 48%, #f0f0f0 51%);
-	background: -o-linear-gradient(top, #fff 48%, #f0f0f0 51%);
-	background: -ms-linear-gradient(top, #fff 48%, #f0f0f0 51%);
-	background: linear-gradient(to bottom, #fff 48%, #f0f0f0 51%);
-	font-family: Arial;
-	font-size: 35px;
-	color: #fff;
-	float: left;
-	text-align:right;
-	text-shadow: 1px 2px 3px rgba(164,83,3,.17);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
-
-.section-2 .section-2-note .note-2 img{
+.section-2 .total-award img{
 	width: 100%;
-}
-
-.section-2 .section-2-note .note-2 {
-    float: left;
-    padding-left: 20px;
-    padding-top: 5px;
-}
-
-.section-2 .ribbon-img img{
-	width: 93%;
 }
 
 .section-2 .subcribe-form {
 	float: right;
     padding: 10px 0px 10px 5px;
-	margin: 5% 75px 10vh 0;
+	margin: 5% 10% 10vh 0;
 	width: 78%;
 	height: 95px;
 	-webkit-border-radius: 6px;
@@ -425,13 +399,9 @@ ul,li{
 	background-image: linear-gradient(to bottom, #ffc72e 14%, #eebc23 86%)
 }
 
-.section-2 .gift-image 
-{
-	margin-left: -5%;
-}
 
 .section-2 .gift-image img{
-	width: 110%;
+	width: 100%;
 	margin-top: 17%;
 }
 
@@ -618,25 +588,10 @@ footer {
 
 	/*	SECTION 2	*/
 
-	.section-2 .section-2-note {
+	.section-2 .total-award {
 	margin-top: 35%;
 	float: none;
 	display: block;
-	}
-
-	.section-2 .section-2-note .note-1 {
-	font-size: 6vw;
-	font-weight: bold;
-	margin-left: 5% ;
-	display: block;
-	}
-
-	.section-2 .section-2-note .note-2 img{
-	width: 38vw;
-	}
-
-	.section-2 .ribbon-img img{
-	width: 100%;
 	}
 
 	.section-2 .subcribe-form {
@@ -678,7 +633,7 @@ footer {
 	.section-2 .gift-image img{
 	width: 100%;
 	display: block;
-	margin: -15% auto 3% auto;
+	margin: -15% -8% 3% auto;
 	}
 
 	/*	SECTION 3	*/
@@ -748,8 +703,8 @@ footer {
 		padding-bottom: 6%;
 	}
 
-	.section-2 .section-2-note .note-2 {
-		padding-left: 10px;
+	.section-2 .subcribe-form {
+		margin-bottom: 5vh;
 	}
 
 }
