@@ -19,7 +19,6 @@
 	<script type="text/javascript" src="js/data.js"></script>
 	<script type="text/javascript" src="js/jquery.rotate.js"></script>
 	<script type="text/javascript" src="js/dev.js"></script>
-	<script type="text/javascript" src="/js/game.js"></script>
 
 </head>
 <body>
@@ -27,17 +26,17 @@
 	<div class="label-img-app appFix">
         <div class="app-link-wrapper" >
             <div class="img-app" >
-                <img class="btn-app-mb" src="images/bg-img-app.png"/>
+                <img class="btn-app-mb" src="images/bg-img-app.png" onclick="hideQRCode()"/>
             </div>
             <div class="container-app" >
                 <ul class="li-container-app">
                     <li class="hidden-android"><a id="iOS_app_download_banner" href="https://itunes.apple.com/vn/app/my-viettel-h%C3%A3y-n%C3%B3i-theo-c%C3%A1ch-c%E1%BB%A7a-b%E1%BA%A1n/id1014838705" class="appstore-link">
-                        <img src="images/img-app-click.png" height="40"/></a>
+                        <img src="images/img-app-click.png"/></a>
                     </li>
                     <li class="hidden-ios"><a id="Android_app_download_banner" href="https://play.google.com/store/apps/details?id=com.vttm.vietteldiscovery" class="chplay-link">
-                        <img src="images/img-ggplay-click.png" height="40"/></a>
+                        <img src="images/img-ggplay-click.png"/></a>
                     </li>
-                    <li class="ma-soi">
+                    <li class="QR-code">
                         <img src="images/img-ma.png"/></li>
                 </ul>
             </div>
@@ -72,9 +71,9 @@
 							</div>
 							<div class="canvas">
 								<img id="wheel" src="images/wheel.png">
-								<div class="button not-select inactive" onclick="rotateImg()"><img src="images/btn-quay.png"></div>
 								<img id="spin" src="images/spin.png">
 							</div>
+							<div class="button-wheel not-select inactive" onclick="rotateImg()"><img src="images/btn-quay.png"></div>
 
 							<div class="notice">
 								<p>Lưu ý:</p> Vòng Quay chỉ mang tính chất minh họa </br>

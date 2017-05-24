@@ -68,5 +68,11 @@ function hidePopup(id) {
   $('#mask').hide();
 }
 
-
+function hideQRCode (){
+    if ($('.container-app').is(':visible')) {
+      $('.container-app').hide();
+    } else {
+      $('.container-app').show();
+    }
+}
 
